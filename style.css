@@ -1,4 +1,72 @@
-h1{color:red;}/* CSS Document */
-body{ 
-  background-color:#00FFFF;
-  color:#F0FFFF;}
+body{
+background-color: #lightgray;
+front-family: Arial, Helvectica, sans- serif;
+font-size: 16px;
+	front weight:normal;
+	line-height: 1.6em;
+	margin: :0;
+}
+a{
+text-decoration: none;
+color: 234;
+}
+
+a:hover{
+color:indianred;
+}
+
+a:hover{
+color:aqua;
+}
+
+.container{
+width: 80%;
+margin: auto;
+}
+
+.box-1{
+	background-color: #333;
+color:fff;
+border:5px red solid;
+paddding:20px;
+margin-top:20px;
+margin:20px 0;
+}
+
+.box-1 h1{
+front-family:Tahoma;
+front-weight:800;
+front-style: italic;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing:0.2em;
+word-spacing:1em;
+}
+
+.box-2 {
+border:8px dotted #ccc;
+paddding:20px;
+margin:20px 0;
+}
+
+.categories{
+border:1px #ccc solid;
+padding: 10px;
+border-radius: 15px;
+}
+
+.categories h2{
+text-align: center;
+}
+
+.categories ul{
+padding:0;
+padding-left: 20px;
+list-style: none;
+}
+
+.categories li{
+padding-bottom: 6px;
+border-bottom: dotted 1px #333;
+list-style-image:url("check.png");
+}
